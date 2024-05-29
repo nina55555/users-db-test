@@ -29,6 +29,7 @@ router.get('/', (req, res) => {
         if(!err)res.send(docs);
         else console.log('erreur de recuperation des données:'+err);
     })
+    
 });
 
 
